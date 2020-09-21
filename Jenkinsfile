@@ -25,11 +25,11 @@ pipeline {
               //  bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
                 
               
-                bat 'git fetch origin'
-                bat 'git checkout origin/master'
+              //  bat 'git fetch origin'
+             //   bat 'git checkout origin/master'
              //   bat 'git fetch origin'
                 bat 'git merge origin1/master'
-             //   bat 'git push origin1 master'
+                bat 'git push origin1 master'
                 
             }
         }
