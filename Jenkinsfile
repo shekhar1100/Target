@@ -22,7 +22,16 @@ pipeline {
                // bat 'git push origin2 master:master' 
                // bat 'git push origin2 HEAD:refs/heads/master'
                 
-                bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
+             //   bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
+                
+               bat 'git remote add team https://github.com/shekhar1100/Android_Test.git'
+                bat 'git remote add free https://github.com/shekhar1100/DataTestEmpty.git'
+                bat 'git fetch team'
+                bat 'git checkout -b master team/master'
+                bat 'git fetch free'
+                bat 'git merge free/master'
+                bat 'git push team master'
+                
             }
         }
     }
