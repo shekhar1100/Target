@@ -26,7 +26,7 @@ pipeline {
                 
               
                 bat 'git fetch origin'
-                bat 'git checkout -b master origin/master'
+                bat 'git checkout master origin/master'
                 bat 'git fetch origin1'
                 bat 'git merge origin1/master'
                 bat 'git push origin master'
