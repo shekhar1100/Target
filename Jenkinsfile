@@ -16,8 +16,8 @@ pipeline {
                // bat 'git push DataTestEmpty master'
                 bat 'git config --global user.email "you@example.com"'
                 bat 'git config --global user.name "Your Name'
-                bat 'git checkout master '     
-                bat 'git commit -m "Initial commit" '
+               // bat 'git checkout master '     
+               // bat 'git commit -m "Initial commit" '
                 bat 'git push JaniTest master:master' 
             }
         }
