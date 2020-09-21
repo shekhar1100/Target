@@ -15,7 +15,7 @@ pipeline {
                // bat 'git push -u origin master'
                // bat 'git push DataTestEmpty master'
                 bat 'git checkout master '               
-                bat 'git push JaniTest master' 
+                bat 'git push origin master' 
             }
         }
     }
