@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                bat 'git remote add JaniTest https://github.com/shekhar1100/JaniTest.git'
+                bat 'git remote add origin2 https://github.com/shekhar1100/JaniTest1.git'
               //  bat 'git remote set-url origin https//github.com/shekhar1100/DataTestEmpty.git'
              //   bat 'git remote set-url origin https://github.com/shekhar1100/DataTestEmpty.git'
              //   bat 'git remote rm origin'
@@ -19,7 +19,7 @@ pipeline {
                // bat 'git checkout master '     
                // bat 'git commit -m "Initial commit" '
                // bat 'git push JaniTest master:master' 
-                bat 'git push JaniTest HEAD:refs/heads/master'
+                bat 'git push origin2 HEAD:refs/heads/master'
             }
         }
     }
