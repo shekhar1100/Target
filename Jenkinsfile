@@ -22,7 +22,7 @@ pipeline {
                // bat 'git push origin2 master:master' 
                // bat 'git push origin2 HEAD:refs/heads/master'
                 
-                bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
+             //   bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
             }
         }
     }
