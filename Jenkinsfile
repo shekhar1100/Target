@@ -11,7 +11,7 @@ pipeline {
              //   bat 'git remote rm origin'
               //  bat 'git remote add origin https://github.com/shekhar1100/DataTestEmpty.git'
               //  bat 'git push origin master'
-             //   bat 'git branch -M master'
+                bat 'git branch -M master'
                // bat 'git push -u origin master'
                // bat 'git push DataTestEmpty master'
                 bat 'git config --global user.email "you@example.com"'
