@@ -11,14 +11,15 @@ pipeline {
              //   bat 'git remote rm origin'
               //  bat 'git remote add origin https://github.com/shekhar1100/DataTestEmpty.git'
               //  bat 'git push origin master'
-                bat 'git branch -M master'
+             //   bat 'git branch -M master'
                // bat 'git push -u origin master'
                // bat 'git push DataTestEmpty master'
                 bat 'git config --global user.email "you@example.com"'
                 bat 'git config --global user.name "Your Name'
                // bat 'git checkout master '     
                // bat 'git commit -m "Initial commit" '
-                bat 'git push JaniTest master:master' 
+               // bat 'git push JaniTest master:master' 
+                bat 'git push JaniTest HEAD:refs/heads/master'
             }
         }
     }
