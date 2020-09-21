@@ -18,8 +18,8 @@ pipeline {
                 bat 'git config --global user.name "Your Name'
                // bat 'git checkout master '     
                // bat 'git commit -m "Initial commit" '
-               // bat 'git push JaniTest master:master' 
-                bat 'git push origin2 HEAD:refs/heads/master'
+                bat 'git push JaniTest master:master' 
+               // bat 'git push origin2 HEAD:refs/heads/master'
             }
         }
     }
