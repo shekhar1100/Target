@@ -22,14 +22,14 @@ pipeline {
                // bat 'git push origin2 master:master' 
                // bat 'git push origin2 HEAD:refs/heads/master'
                 
-             //   bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
+                bat 'git push origin "refs/remotes/origin1/*:refs/heads/*"'
                 
               
-                bat 'git fetch origin'
-                bat 'git checkout master origin/master'
-                bat 'git fetch origin1'
-                bat 'git merge origin1/master'
-                bat 'git push origin master'
+              //  bat 'git fetch origin'
+             //   bat 'git checkout master origin/master'
+             //   bat 'git fetch origin1'
+             //   bat 'git merge origin1/master'
+             //   bat 'git push origin master'
                 
             }
         }
