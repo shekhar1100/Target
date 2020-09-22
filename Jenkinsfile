@@ -7,6 +7,8 @@ pipeline {
                 echo 'Hello World'
                 bat 'git remote add upstream2 https://github.com/shekhar1100/Source.git'
                 bat 'git pull upstream2 master'
+                bat 'git add --all'
+                bat 'git commit -am "Your commit message"'
                 
                 
                 
