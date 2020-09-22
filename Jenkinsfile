@@ -7,9 +7,9 @@ pipeline {
                 echo 'Hello World'
                 bat 'git remote add upstream4 https://github.com/shekhar1100/Source.git'
                 bat 'git pull upstream4 master'
-                bat 'git status'
-                bat 'git add --all'
-                bat 'git commit -am "Your commit message"'
+                bat 'git push'
+             //   bat 'git add --all'
+             //   bat 'git commit -am "Your commit message"'
                 
                 
                 
