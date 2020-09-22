@@ -5,7 +5,11 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-              //  bat 'git remote add origin2 https://github.com/shekhar1100/JaniTest1.git'
+                bat 'git remote add upstream https://github.com/shekhar1100/Source.git'
+                bat 'git pull upstream'
+                
+                
+                
               //  bat 'git remote set-url origin https//github.com/shekhar1100/DataTestEmpty.git'
              //   bat 'git remote set-url origin https://github.com/shekhar1100/DataTestEmpty.git'
              //   bat 'git remote rm origin'
