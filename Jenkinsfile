@@ -5,9 +5,9 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                bat 'git remote add upstream5 https://github.com/shekhar1100/Source.git'
-                bat 'git pull upstream5 master'
-                bat 'git push'
+                bat 'git remote add upstream6 https://github.com/shekhar1100/Source.git'
+                bat 'git pull upstream6 master'
+                bat 'git push origin HEAD:master'
              //   bat 'git add --all'
              //   bat 'git commit -am "Your commit message"'
                 
