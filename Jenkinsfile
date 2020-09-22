@@ -5,10 +5,10 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                bat 'git remote add upstream7 git@github.com:shekhar1100/Source.git'
+                bat 'git remote add upstream8 git@github.com:shekhar1100/Source.git'
                 
                 bat 'git fetch origin --tags'
-                bat 'git fetch upstream7 --tags'
+                bat 'git fetch upstream8 --tags'
                 
                 bat 'git push origin --all'
                 bat 'git push origin --tags'
