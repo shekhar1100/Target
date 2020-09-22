@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 bat 'git remote add upstream https://github.com/shekhar1100/Source.git'
-                bat 'git pull upstream'
+                bat 'git pull upstream master'
                 
                 
                 
